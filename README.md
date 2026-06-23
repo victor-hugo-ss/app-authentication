@@ -19,11 +19,13 @@
 
 ## 🧩 Stack
 
-```
-Node.js (ESM)  ·  Fastify  ·  Passport (local + jwt)
-fastify-passport  ·  fastify-session  ·  fastify-cookie
-Sequelize  ·  SQLite3  ·  Handlebars  ·  dotenv
-```
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![Passport](https://img.shields.io/badge/Passport-34E27A?style=for-the-badge&logo=passport&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=dotenv&logoColor=black)
 
 ---
 
@@ -171,7 +173,7 @@ curl -H "Authorization: Bearer <TOKEN>" \
 ## 💡 Dicas de desenvolvimento
 
 - **App não inicia?** Verifique se `.env` contém `SECRET` e `JWT_SECRET`.
-- **Resetar dados:** Remova ou renomeie `db/database.sqlite` — ele é recriado automaticamente.
+- **Criar pasta de dados:** Crie a pasta `db` na raiz do projeto e o arquivo `db/database.sqlite` será criado automaticamente.
 - **Logs do banco:** Ative `logging: console.log` no `db.js` para depurar queries.
 - **`.gitignore`:** O arquivo SQLite já está listado — não o versione.
 
