@@ -1,5 +1,5 @@
 {
-  "name": "app_authetication",
+  "name": "app_authentication",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
